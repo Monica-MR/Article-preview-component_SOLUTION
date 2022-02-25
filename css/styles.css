@@ -53,7 +53,7 @@ h2{
     .card{
         display: grid;
         grid-template-columns: 4fr 6fr;
-        margin: 22% 0 2rem 0;
+        margin: 30% 0 2rem 0;
         position: relative;
     }
 }
@@ -82,7 +82,7 @@ h2{
 }
 @media (min-width: 1268px) { 
     .card__body{
-        padding: 3rem 3rem 1rem 3rem;
+        padding: 3rem 3rem 1rem 4rem;
     }
     .card__header{
         font-size: 2.2rem;
@@ -122,20 +122,21 @@ h2{
     margin: .5rem 0 0 0;
     color: var(--grayishBlue) ;
 }
+.card__name{
+    color: var(--gray);
+}
 @media (min-width: 768px) { 
     .card__name{
         font-size: 1.2rem;
+        font-weight: 700;
     }
     .card__date{
         font-size: 1rem;
     }
 }
-@media (min-width: 768px) { 
-    .card__name{
-        font-size: 1.6rem;
-    }
-    .card__date{
-        font-size: 1.3rem;
+@media (min-width: 1268px) { 
+    .card__info{
+        font-size: 1.4rem;
     }
 }
 .card__share-icon{
@@ -209,7 +210,7 @@ h2{
 }
 @media (min-width: 1268px) {
     .container{
-        max-width: 55%;
+        max-width: 50%;
     } 
 }
 .hidden,
