@@ -73,13 +73,25 @@ h2{
         object-position: left;
     }
 }
+@media (min-width: 1000px) { 
+    .card__image{
+        height: 35rem;
+    }
+}
+@media (min-width: 1350px) { 
+    .card__image{
+        height: 32rem;
+    }
+}
 .card__body{
     padding: 0 4rem ;
     padding-top: 4rem;
+    padding-bottom: 1rem;
 }
 @media (min-width: 768px) { 
     .card__body{
         padding: 2rem;
+        padding-bottom: 0;
     }
 }
 @media (min-width: 1268px) { 
